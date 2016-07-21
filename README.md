@@ -39,8 +39,7 @@ Add `hedwig_hipchat` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:exml, github: "paulgray/exml", override: true},
-   {:hedwig_hipchat, "~> 0.9.0"}]
+  [{:hedwig_hipchat, "~> 0.9.5"}]
 end
 ```
 

@@ -1,7 +1,7 @@
 defmodule HedwigHipChat.Mixfile do
   use Mix.Project
 
-  @version "0.9.4"
+  @version "0.9.5"
   @source_url "https://github.com/jwarlander/hedwig_hipchat"
 
   def project do
@@ -23,9 +23,8 @@ defmodule HedwigHipChat.Mixfile do
   end
 
   defp deps do
-    [{:exml, github: "paulgray/exml", override: true},
-     {:hedwig, github: "hedwig-im/hedwig"},
-     {:romeo, "~> 0.4"},
+    [{:hedwig, "1.0.0-rc.4"},
+     {:romeo, "~> 0.6"},
      {:earmark, "~> 0.1", only: :dev},
      {:ex_doc, "~> 0.11", only: :dev}]
   end
